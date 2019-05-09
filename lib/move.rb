@@ -13,6 +13,6 @@ def input_to_index(input)
 end
 
 def move(array, position, char = "X")
+  array[position] = char
   board = array
-  board[position] = char
 end
